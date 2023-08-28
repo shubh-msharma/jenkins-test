@@ -1,5 +1,5 @@
 pipeline{
-    agent: any
+    agent any
     parameters {
         string(name:"Person",defaultValue:"Shubham",description:"string param test description")
         boolParam(name:"Deploye",defaultValue:true,description:"boolean param test description")
