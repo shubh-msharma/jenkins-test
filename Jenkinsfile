@@ -2,7 +2,7 @@ pipeline{
     agent any
     parameters {
         string(name:"Person",defaultValue:"Shubham",description:"string param test description")
-        boolParam(name:"Deploye",defaultValue:true,description:"boolean param test description")
+        booleanParam(name:"Deploye",defaultValue:true,description:"boolean param test description")
         password(name:"Pass",description:"passsword param test description")
         choice(name:"Locations",choices:["US","UK","IND"],description:"choices param test description")
     }
